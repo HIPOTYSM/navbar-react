@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/navbar-react/static/css/main.d65e08d1.css",
+    "main.js": "/navbar-react/static/js/main.64628df5.js",
+    "static/js/453.1b179f94.chunk.js": "/navbar-react/static/js/453.1b179f94.chunk.js",
+    "index.html": "/navbar-react/index.html",
+    "main.d65e08d1.css.map": "/navbar-react/static/css/main.d65e08d1.css.map",
+    "main.64628df5.js.map": "/navbar-react/static/js/main.64628df5.js.map",
+    "453.1b179f94.chunk.js.map": "/navbar-react/static/js/453.1b179f94.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d65e08d1.css",
+    "static/js/main.64628df5.js"
+  ]
+}
