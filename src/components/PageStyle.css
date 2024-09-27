@@ -1,0 +1,60 @@
+/* Container for the page */
+.page-container {
+    background-color: #0e0e0e; /* Slightly darker background for contrast */
+    color: #e0e0e0; /* Light gray text for better readability */
+    min-height: 100vh; /* Full height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    animation: fadeIn 0.5s ease-in-out; /* Fade-in animation */
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Heading styles */
+h2 {
+    color: #ff77ff; /* Neon pink title color */
+    font-size: 2.5rem; /* Increased size for visibility */
+    text-shadow: 0 0 5px #ff77ff, 0 0 10px #ff77ff, 0 0 15px #ff007f; /* Neon glow effect */
+    margin-bottom: 20px; /* Spacing below the heading */
+}
+
+/* Paragraph styles */
+p {
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 1.2rem; /* Increased size for better readability */
+    color: #e0e0e0; /* Light gray text */
+    line-height: 1.6; /* Better line spacing for readability */
+    text-shadow: 0 0 5px #00ffcc, 0 0 10px #00ffcc; /* Neon glow effect for paragraphs */
+}
+
+/* Optional button styles */
+button {
+    background-color: #00ffcc; /* Neon turquoise button */
+    color: #121212; /* Dark text for contrast */
+    border: none;
+    border-radius: 5px;
+    padding: 12px 24px; /* Increased padding for better size */
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transitions */
+    margin-top: 20px; /* Spacing above button */
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #ff007f; /* Change to neon pink on hover */
+    color: white; /* Ensure text is white on hover */
+    transform: scale(1.05); /* Slightly enlarge button on hover */
+}
